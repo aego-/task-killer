@@ -11,8 +11,7 @@ int main(std){
     printf("\n A continuacion especifica si quieres hacer manual esta tarea o mato todo lo que no sirva? '_'\n\n");
     printf("     Manual presiona [m]     Automatico presiona [a]\n      ");
     scanf(" %c", &opcion);
-
-    printf("%c", opcion);
+    
     if(opcion == 'm'){
         system("start cmd /k tasklist /v");
         system("start cmd");
